@@ -96,7 +96,7 @@ void SocialNet::suggestFriends(const std::string& username, int N) {
     }
 
     std::vector<int> myFriends = friendshipGraph.getFriends(userId);
-    std::map<int, int> suggestions;
+    std::unordered_map<int, int> suggestions;
 
     for (int friendId : myFriends) {
         std::vector<int> fofIds = friendshipGraph.getFriends(friendId);

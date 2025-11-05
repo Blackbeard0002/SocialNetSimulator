@@ -1,7 +1,7 @@
 #ifndef GRAPH_H
 #define GRAPH_H
 
-#include <map>
+#include <unordered_map>
 #include <queue>
 #include <vector>
 
@@ -10,7 +10,7 @@
  */
 class Graph {
 private:
-    std::map<int, std::vector<int>> adj;
+    std::unordered_map<int, std::vector<int>> adj;
     int numVertices;
 
 public:
