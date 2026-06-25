@@ -22,19 +22,23 @@ This project implements core data structures from scratch as required by the ass
 
 # How to Compile
 
-A shell script compile.sh is provided to build the project. This script requires a C++ compiler like g++.
+A shell script `compile.sh` is provided to build the project. It requires `g++` and compiles with C++17, `-Wall`, `-Wextra`, and `-g`.
 
 1. Open your terminal in the project's root directory.
 
-2. Run the following command to make the script executable (you only need to do this once):
+2. If needed, make the script executable (you only need to do this once):
 
-bash chmod +x compile.sh
+```bash
+chmod +x compile.sh
+```
 
-3. Run the script to build the program:
+3. Build the program:
 
-bash compile.sh
+```bash
+./compile.sh
+```
 
-This will compile all .cpp files (main.cpp, SocialNet.cpp, Graph.cpp, AVLTree.cpp) and link them into a single executable file named socialnet.
+This compiles `main.cpp`, `SocialNet.cpp`, `Graph.cpp`, and `AVLTree.cpp` into an executable named `socialnet` in the project root.
 
 # How to Run
 

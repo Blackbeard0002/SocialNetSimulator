@@ -1,0 +1,14 @@
+# Build output
+socialnet
+socialnet.exe
+*.o
+*.out
+
+# Debug symbols / IDE
+*.dSYM/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
